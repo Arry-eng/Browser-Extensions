@@ -1,0 +1,8 @@
+            - name: Debugging with browser
+  # You may pin to the exact commit or the version.
+  # uses: fawazahmed0/action-debug@9185bd49adec95e03592e3e6036d86f70d5ef423
+  uses: fawazahmed0/action-debug@v2
+  with:
+    # Set credentials in username:password format to access the terminal. Default value is admin:admin
+    credentials: # optional, default is admin:admin
+          
