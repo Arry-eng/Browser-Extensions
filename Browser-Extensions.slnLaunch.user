@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "MyChromeExt",
+    "Projects": [
+      {
+        "Path": "Browser-Extensions.esproj",
+        "Action": "Start",
+        "DebugTarget": "Launch Program"
+      }
+    ]
+  },
+  {
+    "Name": "New Profile (1)",
+    "Projects": []
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "Browser's public profile'",
+  "version": "1.0",
+  "description": "Find your Broser's public profile (details like, agent, protocol, IP etc) with this extension",
+  "manifest_version":3,
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "profiler.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "browser-extensions",
+  "version": "1.0.0",
+  "description": "This is the new place where you can view my Open Source Browser extensions.\r They are all available for all web browsers such as Google Chrome, Safari, Opera, Firefox, Yandex, Microsoft Edge, Maxthon, and Naver Whale.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.17.0"
+  }
+}
