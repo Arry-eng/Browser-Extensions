@@ -1,0 +1,30 @@
+            - name: Browser Platform Publisher
+  # You may pin to the exact commit or the version.
+  # uses: PlasmoHQ/bpp@a3dccb0a619db86ddff48bfdbbcadbf84e42d1df
+  uses: PlasmoHQ/bpp@v3.6.1
+  with:
+    # A JSON string containing the keys to be used for the submission process. (This should be a secret)
+    keys: 
+    # The extension zip artifact to be published.
+    artifact: # optional
+    # This is an alias to artifact argument.
+    zip: # optional
+    # This is an alias to artifact argument.
+    file: # optional
+    # The path to the Chrome extension zip file.
+    chrome-file: # optional
+    # The path to the Firefox extension zip file.
+    firefox-file: # optional
+    # The path to the Edge extension zip file.
+    edge-file: # optional
+    # The path to the Opera extension zip file.
+    opera-file: # optional
+    # A release note cataloging changes. (Edge only)
+    notes: # optional
+    # This is an alias to notes argument.
+    edge-notes: # optional
+    # Print out more verbose logging.
+    verbose: # optional
+    # The path to a json file with a version field, default to package.json.
+    version-file: # optional
+          
